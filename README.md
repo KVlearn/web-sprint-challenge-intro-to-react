@@ -29,12 +29,25 @@ Commit your code regularly and meaningfully. This helps both you (in case you ev
 Be prepared to demonstrate your understanding of this week's concepts by answering questions on the following topics. You might prepare by writing down your own answers before hand.
 
 1. What is React JS and what problems does it solve? Support your answer with concepts introduced in class and from your personal research on the web.
+React is an open source JS library developed by FB and used for building UI components. 
+React allows developers to create large web applications that can change data, without reloading the page. As the page gets re-rendered only when the state changes. Making the UI application faster and scalable. 
 
 1. Describe component state.
+State in React is a JS buildin object, 
+React uses When state changes, the component responds by re-rendering.
+UseState hook is used to set and change the value in the state object.
+When the value in the state object changes, then the component will 
+re-render the new changed values.
+ 
 
 1. Describe props.
+props gets passed to the component , More like the parameters to a function.
+The component then receives argument as the prop OBJECT. 
 
 1. What are side effects, and how do you sync effects in a React component to changes of certain state or props?
+We use UseEffectHook to have the sideeffects in the functional component. 
+Data Fetching from an api, changing the DOM are sideeffects (as the output returned causes the data to change and thereby affects the state of the page)
+Side effects are basically anything that affects something outside of the scope of the current function that's being executed.
 
 You are expected to be able to answer questions in these areas. Your responses contribute to your Sprint Challenge grade.
 
