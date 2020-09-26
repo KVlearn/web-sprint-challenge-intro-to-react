@@ -1,20 +1,33 @@
 import React from "react";
 import { Card,CardHeader, CardText,Col } from "reactstrap";
 import {Container,Row} from "reactstrap";
- 
+import styled from 'styled-components';
+
 function Starship({info}){
     // const [searchText,setSearchText]=useState('');
-     document.body.classList.remove('planet');
-     document.body.classList.add('starship');
-    //document.body.classList.replace('planet', 'starship');
+    document.body.classList.remove('planet');
+    document.body.classList.add('starship');
+    // document.body.classList.replace('planet', 'starship');
+    const Swrap = styled.div`
+    text-shadow: 1px 1px 3px white;
+    font-family: Jura; 
+    font-family: 'Droid', sans-serif;
+    font-weight: bold;
+    font-size: medium;
+    opacity:70%;
+    margin-top: 20px;
+    padding:2% 8%;
+   }
+    `
+    
+
 return(
+    <Swrap>
     <Container>
-      <Row style={{display:"flex",flexFlow:"wrap",justifyContent:
-    "space-evenly", margin:"0 auto"}}>
+      <Row>
       {info.map((item,index) => {
         return (
             <Col key={index} xs="6" md="4" xl="2" style={{margin:"10px"}}>
-            {/* <Card style={{ width:"200px",opacity:"70%",color:"black"}}> */}
             <Card className="starshipCard">
             <CardHeader tag="h4">{item.name}</CardHeader>
             <CardText>Manufacturer:{item.model}</CardText>
@@ -31,6 +44,7 @@ return(
       })}
       </Row>
      </Container>
+     </Swrap>
 );
 }
 

@@ -2,6 +2,7 @@
 import React,{useState} from "react";
 import { Card,CardHeader,Container, CardText,Col, Row} from "reactstrap";
 import SearchText from './SearchText';
+import styled from 'styled-components';
 
 
 function Character({info}){
@@ -24,7 +25,9 @@ return(
             <Col  key={index}xs="6" md="4" xl="2" style={{margin:"15px",width:"20rem"}}>
                <Card className="charCard"  key={index}>
                   <CardHeader tag="h5">{item.name}</CardHeader>
-                  <CardText className="charCard">I'm {item.eye_color} eyed! and {item.hair_color} Hair !</CardText>
+                  <CardText className="charCard">I'm {item.eye_color} eyed! and my Skin Color is {item.skin_color} </CardText>
+                  <CardText className="charCard">Birth Year :{item.birth_year}  </CardText>
+                  {/* <CardText className="charCard"> My Gender:{item.gender}</CardText> */}
                   <CardText className="charCard"> My Height:{item.height}</CardText>
                   <CardText className="charCard"> My Mass:{item.mass} </CardText>
                </Card>

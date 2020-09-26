@@ -8,10 +8,9 @@ body {
 
 .charCard{
   background-color: papayawhip;
-  opacity:70%;
+  opacity:75%;
   color:black;
-  font-family: Jura; 
-  font-family: 'Droid', sans-serif;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
   font-weight: bold;
   font-size: medium;
   text-shadow: 1px 1px 3px goldenrod;
@@ -20,16 +19,10 @@ body {
 }
 
 .planetCard{
-  /* width:170px; */
-  text-shadow: 1px 1px 3px whitesmoke;
-  font-family: Jura; 
-  font-family: 'Droid', sans-serif;
-  font-weight: bold;
-  font-size: medium;
-  opacity:70%;
-  margin-top: 35px;
+  margin-top: 15px;
   padding:5% 2.5%;
 }
+
 .planet{
   background-image: url('http://wallpapercave.com/wp/pEeUsp1.jpg');
   background-position: center;
@@ -45,14 +38,7 @@ body {
 }
 
 .starshipCard{
-  text-shadow: 1px 1px 3px white;
-  font-family: Jura; 
-  font-family: 'Droid', sans-serif;
-  font-weight: bold;
-  font-size: medium;
-  opacity:70%;
-  margin-top: 25px;
-  padding:5% 8%;
+  padding:2% 10%;
   width:200px;
 }
 
