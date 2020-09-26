@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "4506bb9e9bce4df1425d0431d7145521",
+    "revision": "51017a856b3834c8521e048ddb502f90",
     "url": "/web-sprint-challenge-intro-to-react/index.html"
   },
   {
@@ -8,7 +8,7 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/web-sprint-challenge-intro-to-react/static/css/2.11829350.chunk.css"
   },
   {
-    "revision": "78159c8a1b172a0f1b90",
+    "revision": "8b2d802e1cdb60c63055",
     "url": "/web-sprint-challenge-intro-to-react/static/css/main.e3d73ea4.chunk.css"
   },
   {
@@ -20,8 +20,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/web-sprint-challenge-intro-to-react/static/js/2.04a3a782.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "78159c8a1b172a0f1b90",
-    "url": "/web-sprint-challenge-intro-to-react/static/js/main.62473482.chunk.js"
+    "revision": "8b2d802e1cdb60c63055",
+    "url": "/web-sprint-challenge-intro-to-react/static/js/main.ddc354d9.chunk.js"
   },
   {
     "revision": "7cd162bfaf2e1a458dd3",
