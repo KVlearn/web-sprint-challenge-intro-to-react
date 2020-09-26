@@ -2,7 +2,7 @@
   "name": "web-sprint-challenge-intro-to-react",
   "version": "0.1.1",
   "private": true,
-  "homepage": "https://KVlearn.github.io/web-sprint-challenge-intro-to-react",
+  "homepage": "http://KVlearn.github.io/web-sprint-challenge-intro-to-react",
   "dependencies": {
     "@testing-library/jest-dom": "^5.11.4",
     "@testing-library/react": "^10.4.9",
