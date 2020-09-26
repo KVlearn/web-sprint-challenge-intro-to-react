@@ -1,10 +1,10 @@
-import React,{useState} from "react";
-import { Card,CardBody,CardHeader, CardText,Col } from "reactstrap";
+import React from "react";
+import { Card,CardHeader, CardText,Col } from "reactstrap";
 import {Container,Row} from "reactstrap";
 
 
 function Planet({info}){
-    const [searchText,setSearchText]=useState('');
+    // const [searchText,setSearchText]=useState('');
     document.body.classList.remove('starship');
     document.body.classList.add('planet');
 return(

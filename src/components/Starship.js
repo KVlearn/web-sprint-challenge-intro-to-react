@@ -1,9 +1,9 @@
-import React,{useState} from "react";
+import React from "react";
 import { Card,CardHeader, CardText,Col } from "reactstrap";
 import {Container,Row} from "reactstrap";
  
 function Starship({info}){
-    const [searchText,setSearchText]=useState('');
+    // const [searchText,setSearchText]=useState('');
      document.body.classList.remove('planet');
      document.body.classList.add('starship');
     //document.body.classList.replace('planet', 'starship');
