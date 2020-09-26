@@ -5,3 +5,68 @@ body {
   background-image: url('./images/sw-bg.jpg');
   background-size: cover;
 }
+
+.charCard{
+  background-color: papayawhip;
+  opacity:70%;
+  color:black;
+  font-family: Jura; 
+  font-family: 'Droid', sans-serif;
+  font-weight: bold;
+  font-size: medium;
+  text-shadow: 1px 1px 3px goldenrod;
+  margin-top: 15px;
+  padding:0.5%;
+}
+
+.planetCard{
+  /* width:170px; */
+  text-shadow: 1px 1px 3px whitesmoke;
+  font-family: Jura; 
+  font-family: 'Droid', sans-serif;
+  font-weight: bold;
+  font-size: medium;
+  opacity:70%;
+  margin-top: 35px;
+  padding:5% 2.5%;
+}
+.planet{
+  background-image: url('http://wallpapercave.com/wp/pEeUsp1.jpg');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.starship{
+  background-image: url('http://imageshack.com/a/img923/1620/BR6ySW.png');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.starshipCard{
+  text-shadow: 1px 1px 3px white;
+  font-family: Jura; 
+  font-family: 'Droid', sans-serif;
+  font-weight: bold;
+  font-size: medium;
+  opacity:70%;
+  margin-top: 25px;
+  padding:5% 8%;
+  width:200px;
+}
+
+.navlink{
+  font-size: 24px;
+  font-weight:bolder;
+  margin-bottom: 4%;  
+  margin-top: 2%;  
+  }
+
+.searchbar{
+    color: goldenrod;
+    font-size: 20px;
+    font-weight: bolder;
+    font-style: oblique;
+    width:18rem;
+  }
