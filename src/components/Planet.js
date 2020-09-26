@@ -11,10 +11,10 @@ return(
     <Container>
       <Row style={{display:"flex",flexFlow:"wrap",justifyContent:
     "space-evenly", margin:"0 auto"}} >
-      {info.map(item => {
+      {info.map((item,index) => {
         return (
-            <Col xs="6" md="4" xl="2" >
-            <Card className="planetCard">
+            <Col key={index} xs="6" md="4" xl="2" >
+            <Card key={index} className="planetCard">
             <CardHeader tag="h4">{item.name}</CardHeader>
             <CardText>Rotation Period :{item.rotation_period}</CardText>
             <CardText>Climate :{item.climate}</CardText>

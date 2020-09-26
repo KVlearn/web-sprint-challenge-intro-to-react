@@ -9,10 +9,11 @@ function Starship({info}){
     //document.body.classList.replace('planet', 'starship');
 return(
     <Container>
-      <Row>
-      {info.map(item => {
+      <Row style={{display:"flex",flexFlow:"wrap",justifyContent:
+    "space-evenly", margin:"0 auto"}}>
+      {info.map((item,index) => {
         return (
-            <Col Col xs="6" md="4" xl="2" style={{margin:"10px"}}>
+            <Col key={index} xs="6" md="4" xl="2" style={{margin:"10px"}}>
             {/* <Card style={{ width:"200px",opacity:"70%",color:"black"}}> */}
             <Card className="starshipCard">
             <CardHeader tag="h4">{item.name}</CardHeader>
