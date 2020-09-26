@@ -2,9 +2,7 @@
 import React,{useState} from "react";
 import { Card,CardHeader,Container, CardText,Col, Row} from "reactstrap";
 import SearchText from './SearchText';
-import styled from 'styled-components';
-
-
+ 
 function Character({info}){
     const [searchText,setSearchText]=useState('');
     const handleSearch =(value)=>setSearchText(value);
